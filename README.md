@@ -6,6 +6,12 @@ Instructions and utilities for the autograder.
 # Table of Contents
 1. [Environment](#environment)
 2. [Setting Up a Sample Assignment](#setting-up-a-sample-assignment)
+    1. [Settings](#settings)
+    2. [Instructor Files](#instructor-files)
+    3. [Student Files](#student-files)
+    4. [Test Cases](#test-cases)
+        1. [Making a Test Suite](#making-a-test-suite)
+        2. [Making a Test Case](#making-a-test-case)
 
 ## Environment
 The autograder runs test cases in an environment that uses OpenJDK 15 and JUnit 5.7.0.
@@ -131,8 +137,6 @@ To create the test case in the autograder, press the "+" button next to the suit
 
 - For both "Normal" and "Final Graded", set the preset to "Pass/Fail + Output".
 
-**Make sure to hit "Save" at the bottom of the page or else the changes will be discarded without warning.**
-
 To set up the commands that will run the methods in the test file, select the ellipses next to the test case, and choose "Add command". Name the command something descriptive - "Running Method" with the method name will suffice. For the command, copy the "Run: ..." command correlating to that method from the script output. Do this for each test method.
 
 *Return Code*
@@ -142,8 +146,6 @@ To set up the commands that will run the methods in the test file, select the el
 *Feedback*
 
 - For both "Normal" and "Final Graded", set the preset to "Pass/Fail + Output".
-
-**Make sure to hit "Save" at the bottom of the page or else the changes will be discarded without warning.**
 
 Note: You may want to go back up to the test case and rename it, as it will still have "Compiling" in the name.
 
