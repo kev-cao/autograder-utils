@@ -56,6 +56,10 @@ if __name__ == '__main__':
     if len(sys.argv) < 2:
         print("You must provide either the directory containing the files or the file itself.")
     else:
+        # Instructions on how to compile student code.
+        print("Test Suite Setup Command:")
+        print("mkdir classes && javac -d classes/ $(student files here)\n")
+
         # Process each of the arguments.
         for arg in sys.argv[1:]:
             try:
