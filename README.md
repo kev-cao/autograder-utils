@@ -3,6 +3,10 @@ Instructions and utilities for the autograder.
 
 ### [Link to Autograder](https://autograder.sice.indiana.edu/web/course_admin/18)
 
+# Table of Contents
+1. [Environment](#environment)
+2. [Setting Up a Sample Assignment](#setting-up-a-sample-assignment)
+
 ## Environment
 The autograder runs test cases in an environment that uses OpenJDK 15 and JUnit 5.7.0.
 
