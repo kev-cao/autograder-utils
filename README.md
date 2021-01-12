@@ -16,12 +16,12 @@ Instructions and utilities for the autograder.
 ## Environment
 The autograder runs test cases in an environment that uses OpenJDK 15 and JUnit 5.7.0.
 
+&nbsp;
+
 ## Setting Up a Sample Assignment
 At the top bar, click on the setting cog to the right of "CSCI-C 343 Spring 2021". Click on the "Projects" tab, create a name for the new assignment, and then click "Add Project".
 
 You will see the new assignment pop up below - click on its setting cog.
-
-&nbsp;
 
 ### Settings 
 *Project Deadline*
