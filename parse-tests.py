@@ -58,7 +58,7 @@ if __name__ == '__main__':
     else:
         # Instructions on how to compile student code.
         print("Test Suite Setup Command:")
-        print("mkdir classes && javac -d classes/ $(student files here)\n")
+        print("mkdir classes && javac -d classes/ STUDENT_FILES_HERE\n")
 
         # Process each of the arguments.
         for arg in sys.argv[1:]:
