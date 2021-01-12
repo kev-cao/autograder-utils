@@ -49,7 +49,7 @@ def process_file(f):
 
     for method in methods:
         print(f"Method: {method}")
-        print(f"\tRun: {create_run_command(class_name, method)}\n")
+        print(f"Run: {create_run_command(class_name, method)}\n")
 
 
 if __name__ == '__main__':
