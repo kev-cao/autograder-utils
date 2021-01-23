@@ -38,7 +38,7 @@ You will see the new assignment pop up below - click on its setting cog.
 
 *Submission Limits*
 
-- TBD.
+- Set to 8 submission per day, with it resetting at 12:00 AM EST. Also uncheck "Allow submissions past limit".
 
 
 **Make sure to hit "Save" at the bottom of the page or else the changes will be discarded without warning.**
