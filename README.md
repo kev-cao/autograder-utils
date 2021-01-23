@@ -30,7 +30,7 @@ You will see the new assignment pop up below - click on its setting cog.
 
 *Access*
 
-- While setting up the assignment, leave all boxes unchecked. After setting up the assignment, check "Publish project".
+- While setting up the assignment, leave all boxes unchecked. After setting up the assignment, check "Publish project". Also check "Publish Final Grades".
 
 *Grading Policy*
 
@@ -39,6 +39,7 @@ You will see the new assignment pop up below - click on its setting cog.
 *Submission Limits*
 
 - TBD.
+
 
 **Make sure to hit "Save" at the bottom of the page or else the changes will be discarded without warning.**
 
