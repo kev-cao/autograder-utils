@@ -11,4 +11,4 @@ Instructions and utilities for the autograder.
 
 [**tests-parser**](tests-parser)
 
-\- Contains script to parse JUnit test files and create bash commands for running tests.
+\- Contains script to parse JUnit test files and create bash commands for running tests. Also includes instructions for creating tests in the Autograder.
