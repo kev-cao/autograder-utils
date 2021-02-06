@@ -15,5 +15,8 @@
 # Environment variables
 **/.env
 
+# Scores
+**/scores.csv
+
 # Canvas API Config
 canvas/**/config.json
