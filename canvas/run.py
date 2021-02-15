@@ -54,6 +54,6 @@ if __name__ == '__main__':
     for score in scores_reader.scores:
         try:
             student_id = students[score['username']]['id']
-            canvas.grade_assignment(course_id, assignment_id, student_id, str(score['score']))
+            canvas.grade_assignment(course_id, assignment_id, student_id, str(score['score']), f'Autograder: {score["score"]}/{score["total"]}')
         except Exception:
             print(f'Could not upload score for {score["username"]}.')

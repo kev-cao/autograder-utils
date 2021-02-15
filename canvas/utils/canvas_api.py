@@ -70,15 +70,16 @@ class CanvasAPI:
 
         return self.process_response(response.json())
 
-    def grade_assignment(self, course_id, assignment_id, student_id, grade):
+    def grade_assignment(self, course_id, assignment_id, student_id, grade, comment=None):
         """
-        Changes the grade on a student's assignment.
+        Grades a student's assignment.
 
         Params:
             course_id (String) : the course id.
             assignment_id (String) : the assignment id.
             student_id (String|int) : the student's id.
             grade (String) : the grade to give.
+            comment (String) : the comment to add with the grade.
 
         Returns:
             json: the response from the API call.
@@ -86,7 +87,8 @@ class CanvasAPI:
         with requests.Session() as session:
             self._set_headers(session)
 
-            data = {'submission[posted_grade]': grade}
+            data = {'submission[posted_grade]': grade,
+                    'comment[text_comment]': comment}
             response = session.put(f'{self.url}courses/{course_id}/assignments/{assignment_id}/submissions/{student_id}', params=data)
 
         return self.process_response(response.json())
