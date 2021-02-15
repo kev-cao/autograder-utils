@@ -29,7 +29,7 @@ class ScoresReader:
             new_total (float) : the new total points possible for the assignments.
         """
         for score in self.scores:
-            new_score = new_total / score['total'] * score['score']
+            new_score = score['score'] / score['total'] * new_total 
 
             score['score'] = round(new_score, 2)
             score['total'] = round(new_total, 2)

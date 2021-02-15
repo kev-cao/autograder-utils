@@ -23,7 +23,7 @@ if __name__ == '__main__':
     #######################################
     # Checking Course
     #######################################
-    print('The set course is "{canvas.get_course(course_id)["name"]}".')
+    print(f'The set course is "{canvas.get_course(course_id)["name"]}".')
 
 
     #######################################
