@@ -24,7 +24,7 @@ def create_compile_command(file_name):
     Return:
     str: The bash command for compiling.
     """
-    return f"javac -d classes -cp classes/:junit-jupiter-api-5.7.0.jar:apiguardian-api-1.1.1.jar {file_name}"
+    return f"javac -d classes -cp classes/:junit-jupiter-api-5.9.0.jar:apiguardian-api-1.1.2.jar {file_name}"
 
 def create_run_command(class_name, method_name):
     """
@@ -37,7 +37,7 @@ def create_run_command(class_name, method_name):
     Return:
     str: The bash command for running.
     """
-    return f"java -jar junit-platform-console-standalone-1.7.0.jar --fail-if-no-tests --disable-banner --details-theme=ascii --disable-ansi-colors -cp classes --select-method={class_name}#{method_name}"
+    return f"java -jar junit-platform-console-standalone-1.9.0.jar --fail-if-no-tests --disable-banner --details-theme=ascii --disable-ansi-colors -cp classes --select-method={class_name}#{method_name}"
 
 def process_file(f):
     file_name = os.path.basename(f.name)
